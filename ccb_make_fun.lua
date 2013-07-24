@@ -3,10 +3,7 @@
 function makeccb(info_table)
 
 local file_name = info_table['file_name']
-local action_count = #info_table["frame_name"];
-local frame_size = info_table["frame_size"];
-local frame_time = info_table["frame_time"];
-local frame_name = info_table["frame_name"];
+local action_count = #info_table["frame"];
 
 
 local str = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
@@ -42,7 +39,7 @@ str = str.."				<dict>\r\n"
 str = str.."					<key>keyframes</key>\r\n"
 str = str.."					<array>\r\n"
 
-	for j=1,frame_size[i] do
+	for j=1,info_table["frame"][i]['count'] do
 
 str = str.."					<dict>\r\n"
 str = str.."						<key>easing</key>\r\n"
@@ -53,7 +50,7 @@ str = str.."						</dict>\r\n"
 str = str.."						<key>name</key>\r\n"
 str = str.."						<string>displayFrame</string>\r\n"
 str = str.."						<key>time</key>\r\n"
-str = str.."						<real>"..action_time.."</real>\r\n"
+str = str.."						<real>"..info_table["frame"][i]['name'].."</real>\r\n"
 str = str.."						<key>type</key>\r\n"
 str = str.."						<integer>7</integer>\r\n"
 str = str.."						<key>value</key>\r\n"
@@ -74,7 +71,7 @@ str = str.."						<key>type</key>\r\n"
 str = str.."						<integer>7</integer>\r\n"
 str = str.."				</dict>\r\n"
 str = str.."			</dict>\r\n"
-	frame_time[i] = action_time - 0.05
+	info_table["frame"][i]['action_time'] = action_time - 0.05
 end
 str = str.."		</dict>\r\n"
 str = str.."		<key>baseClass</key>\r\n"
@@ -172,9 +169,9 @@ str = str.."			<true/>\r\n"
 str = str.."			<key>chainedSequenceId</key>\r\n"
 str = str.."			<integer>-1</integer>\r\n"
 str = str.."			<key>length</key>\r\n"
-str = str.."			<real>"..frame_time[i].."</real>\r\n"
+str = str.."			<real>"..info_table["frame"][i]['action_time'].."</real>\r\n"
 str = str.."			<key>name</key>\r\n"
-str = str.."			<string>"..frame_name[i].."</string>\r\n"
+str = str.."			<string>"..info_table["frame"][i]['name'].."</string>\r\n"
 str = str.."			<key>offset</key>\r\n"
 str = str.."			<real>0.13398438692092896</real>\r\n"
 str = str.."			<key>position</key>\r\n"

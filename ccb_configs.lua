@@ -1,248 +1,140 @@
---info start
-info_table = {}
-info_table['file_name'] = "unit100"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 10
-info_table['frame_size'] [2] = 10
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 10
-info_table['frame_size'] [5] = 7
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 10
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+sprite['file_name'] = "unit100"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit150"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit150"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 10
-info_table['frame_size'] [2] = 10
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 10
-info_table['frame_size'] [5] = 7
+sprite['file_name'] = "unit200"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit250"
+table.insert(ccb_list,sprite);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+--define a srpite start--
 
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 17
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 14
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit200"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 8
-info_table['frame_size'] [5] = 7
+sprite['file_name'] = "unit300"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit350"
+table.insert(ccb_list,sprite);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+--define a srpite start--
 
-info_table = {}
-info_table['file_name'] = "unit250"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 8
-info_table['frame_size'] [5] = 7
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 14
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+sprite['file_name'] = "unit400"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit450"
+table.insert(ccb_list,sprite);
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+--define a srpite end--
 
-info_table = {}
-info_table['file_name'] = "unit300"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 17
-info_table['frame_size'] [5] = 14
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 16
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-info_table = {}
-info_table['file_name'] = "unit350"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 17
-info_table['frame_size'] [5] = 14
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit600"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit650"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
 info_table = {}
-info_table['file_name'] = "unit400"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 14
-info_table['frame_size'] [5] = 7
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-info_table = {}
-info_table['file_name'] = "unit450"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 14
-info_table['frame_size'] [5] = 7
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-
-info_table = {}
-info_table['file_name'] = "unit600"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 16
-info_table['frame_size'] [5] = 8
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-info_table = {}
-info_table['file_name'] = "unit650"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 16
-info_table['frame_size'] [5] = 8
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-info_table = {}
-info_table['file_name'] = "unit700"
+info_table['file_name'] = ""
 info_table['frame_size'] = {}
 info_table['frame_size'] [1] = 8
 info_table['frame_size'] [2] = 5
@@ -250,300 +142,472 @@ info_table['frame_size'] [3] = 5
 info_table['frame_size'] [4] = 8
 info_table['frame_size'] [5] = 6
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 5
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 5
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 6
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit750"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 5
-info_table['frame_size'] [3] = 5
-info_table['frame_size'] [4] = 8
-info_table['frame_size'] [5] = 6
+sprite['file_name'] = "unit700"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit750"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 15
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 14
+frame['name'] = "hit_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit900"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit950"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 6
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 5
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 5
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 12
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "hit_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit800"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 6
-info_table['frame_size'] [2] = 6
-info_table['frame_size'] [3] = 6
-info_table['frame_size'] [4] = 0
-info_table['frame_size'] [5] = 5
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-
-
-info_table = {}
-info_table['file_name'] = "unit850"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 7
-info_table['frame_size'] [2] = 7
-info_table['frame_size'] [3] = 7
-info_table['frame_size'] [4] = 0
-info_table['frame_size'] [5] = 5
-
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit1000"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1050"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
 
-info_table = {}
-info_table['file_name'] = "unit900"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 15
-info_table['frame_size'] [5] = 14
-info_table['frame_size'] [6] = 9
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 6
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 6
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 19
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 13
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-info_table['frame_time'] [6] = 0
+sprite['file_name'] = "unit1100"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1150"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "skill"
-info_table['frame_name'] [6] = "dead"
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 17
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit1300"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1350"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table = {}
-info_table['file_name'] = "unit950"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 15
-info_table['frame_size'] [5] = 14
-info_table['frame_size'] [6] = 9
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-info_table['frame_time'] [6] = 0
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "hit_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "hit_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 6
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "skill"
-info_table['frame_name'] [6] = "dead"
+sprite['file_name'] = "unit1500"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1550"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-table.insert(ccb_list,info_table);
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 4
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 4
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 4
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 15
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit1000"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 6
-info_table['frame_size'] [2] = 5
-info_table['frame_size'] [3] = 5
-info_table['frame_size'] [4] = 12
-info_table['frame_size'] [5] = 9
-info_table['frame_size'] [6] = 9
+sprite['file_name'] = "unit1600"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1650"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-info_table['frame_time'] [6] = 0
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "skill"
-info_table['frame_name'] [6] = "dead"
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 6
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 4
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit1700"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1750"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table = {}
-info_table['file_name'] = "unit1050"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 6
-info_table['frame_size'] [2] = 5
-info_table['frame_size'] [3] = 5
-info_table['frame_size'] [4] = 12
-info_table['frame_size'] [5] = 9
-info_table['frame_size'] [6] = 9
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
-info_table['frame_time'] [6] = 0
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 12
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 12
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 12
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 13
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 6
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "skill"
-info_table['frame_name'] [6] = "dead"
+sprite['file_name'] = "unit1900"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit1950"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-table.insert(ccb_list,info_table);
-info_table = {}
-info_table['file_name'] = "unit1100"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 6
-info_table['frame_size'] [2] = 7
-info_table['frame_size'] [3] = 6
-info_table['frame_size'] [4] = 19
-info_table['frame_size'] [5] = 13
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 10
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 13
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 13
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+sprite['file_name'] = "unit2100"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2150"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
-info_table = {}
-info_table['file_name'] = "unit1150"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 6
-info_table['frame_size'] [2] = 7
-info_table['frame_size'] [3] = 6
-info_table['frame_size'] [4] = 19
-info_table['frame_size'] [5] = 13
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 4
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 4
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 4
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 16
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 14
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+sprite['file_name'] = "unit2200"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2250"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
-table.insert(ccb_list,info_table);
 
-info_table = {}
-info_table['file_name'] = "unit1300"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 17
-info_table['frame_size'] [5] = 9
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 11
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
+sprite['file_name'] = "unit2300"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2350"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
 
-table.insert(ccb_list,info_table);
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 12
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 13
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 12
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "hit_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-info_table = {}
-info_table['file_name'] = "unit1350"
-info_table['frame_size'] = {}
-info_table['frame_size'] [1] = 8
-info_table['frame_size'] [2] = 8
-info_table['frame_size'] [3] = 8
-info_table['frame_size'] [4] = 17
-info_table['frame_size'] [5] = 9
+sprite['file_name'] = "unit2400"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2450"
+table.insert(ccb_list,sprite);
+--define a srpite end--
 
-info_table['frame_time'] = {}
-info_table['frame_time'] [1] = 0
-info_table['frame_time'] [2] = 0
-info_table['frame_time'] [3] = 0
-info_table['frame_time'] [4] = 0
-info_table['frame_time'] [5] = 0
 
-info_table['frame_name'] = {}
-info_table['frame_name'] [1] = "run_0"
-info_table['frame_name'] [2] = "run_1"
-info_table['frame_name'] [3] = "run_2"
-info_table['frame_name'] [4] = "hit"
-info_table['frame_name'] [5] = "dead"
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 11
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 11
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 12
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "hit"
+table.insert(sprite['frame'],frame);
+frame['count'] = 10
+frame['name'] = "hit_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
 
-table.insert(ccb_list,info_table);
+sprite['file_name'] = "unit2500"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2550"
+table.insert(ccb_list,sprite);
+--define a srpite end--
+
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 7
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "rush"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "rush_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "rush_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
+
+sprite['file_name'] = "unit2600"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2650"
+table.insert(ccb_list,sprite);
+--define a srpite end--
+
+
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
+
+sprite['file_name'] = "unit2700"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2750"
+table.insert(ccb_list,sprite);
+--define a srpite end--
+
+
+--define a srpite start--
+local sprite = {}
+sprite['frame'] = {}
+local frame={};
+frame['count'] = 8
+frame['name'] = "run"
+table.insert(sprite['frame'],frame);
+frame['count'] = 8
+frame['name'] = "run_1"
+table.insert(sprite['frame'],frame);
+frame['count'] = 9
+frame['name'] = "run_2"
+table.insert(sprite['frame'],frame);
+frame['count'] = 7
+frame['name'] = "dead"
+table.insert(sprite['frame'],frame);
+
+sprite['file_name'] = "unit2700"
+table.insert(ccb_list,sprite);
+sprite['file_name'] = "unit2750"
+table.insert(ccb_list,sprite);
+--define a srpite end--
